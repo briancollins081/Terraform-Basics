@@ -1,4 +1,15 @@
-**/.terraform/
-**/**/.terraform/
-**/.terraform.lock.hcl
-**/**/.terraform.lock.hcl
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# VSCode junk
+.vscode/*
+
+# OSX Garbage
+.DS_Store
