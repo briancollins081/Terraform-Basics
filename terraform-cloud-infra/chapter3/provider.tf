@@ -1,16 +1,17 @@
 provider "aws" {
+    alias = "ohio"
     region = "us-east-2"
     version = "~> 2.0"
 }   
 
 provider "aws" {
-    alias = "aws.virginia"
+    alias = "virginia"
     region = "us-east-1"
     version = "~> 2.0"
 }
 
 resource "aws_s3_bucket" "virginia_bucket" { // will use the provider given
-  provider = aws.aws.virginia
+  provider = "aws.virginia"
   bucket = "s3_spring_photos"
 }
 
