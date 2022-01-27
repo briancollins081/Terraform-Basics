@@ -16,3 +16,9 @@ variable "private_subnet_2_cidr" {}
 
 variable "private_subnet_3_cidr" {}
 
+variable "eip_association_address" {}
+
+variable "ec2_keypair" {}
+
+variable "ec2_instance_type" {}
+
