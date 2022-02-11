@@ -1,3 +1,3 @@
-## Terraform practice - repo
+## Terraform Basics - repo
 
 Random tests - checks
