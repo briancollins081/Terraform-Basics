@@ -1,3 +1,3 @@
 ## Terraform practice - repo
 
-Randon tests - checks
+Random tests - checks
